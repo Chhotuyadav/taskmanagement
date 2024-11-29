@@ -129,7 +129,6 @@ const deleteRecord = async (data) => {
   }
 };
 //getAllPriorityColors
-
 const getAllPriorityColors = async (data) => {
   try {
     const sql = `
