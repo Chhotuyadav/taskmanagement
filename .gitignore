@@ -1,9 +1,3 @@
 .env
 node_modules
-
-query-all.txt
-uploads
-uploads/apk/*
-logs/*
-logs/requests.log
 images
