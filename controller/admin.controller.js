@@ -24,6 +24,7 @@ const get_user_by_group = async (req, res) => {
         .end();
     }
 
+
     const totalRecords = await adminModel.dbGetTotalCount(req, "users");
     const totalPages = Math.ceil(totalRecords / limit);
 
