@@ -105,7 +105,7 @@ const add_contact = async (req, res) => {
 // update contact
 const update_contact = async (req, res) => {
   try {
-
+    console.log("req.body", req.body);
     const rules = {
       first_name: {
         required: true,
